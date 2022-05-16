@@ -1,13 +1,14 @@
-lst=list[input("Enter some numbers")]
-even=0
-odd=0
+#write a python program that accept a word from the user and reverse it
 
-for i in range(lst):
-    lst[i]=int
-    if lst[i]%2==0:
-        even=even+1
-    else:
-        odd=odd+1
-print("Even numbers:",even)
-print("Odd numbers:",odd)
+str1= str(input("Enter Any word"))
+length=len(str1)
+rev=""
+
+while length>0:
+    rev=rev+str1[length-1]
+    length-=1
+
+print(rev)
+
+
 
