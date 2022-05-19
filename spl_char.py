@@ -1,13 +1,16 @@
+#Program to check if a string contains any special character.
 '''
-str=input("Enter a string")
-spl=str.split()
-print(spl)
-for i in spl:
-    if any(not c.isalnum() for c in str):
-        print("String is not acceptable")
-        break
-    else:
-        print("String is acceptable")
+Sample Input :
+Python is a high level programming language
+
+Sample Output :
+String is accepted
+
+Sample Input :
+Python@is a&high level*programming language
+
+Sample Output :
+String is not accepted
 '''
 
 str=input("Enter a string")

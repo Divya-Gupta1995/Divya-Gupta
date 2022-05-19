@@ -1,3 +1,13 @@
+#Python program to capitalize the first and last character of each word in a string (input string should be a statement)
+'''
+Sample Input :
+
+Python is a high level programming language
+Sample Output :
+
+PythoN IS A HigH LeveL ProgramminG LanguagE
+'''
+
 str=input("Please write a sentence")
 spl=str.split()
 join=""
